@@ -1,8 +1,16 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+tr td a{
+  text-decoration: none;
+}
+a:before {
+  content: " | ";
+}
+a[href="/HomePage"]:before {
+  content: " ";
+}
+h1{
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
-}
+
+
+
