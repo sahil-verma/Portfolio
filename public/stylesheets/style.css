@@ -1,16 +1,44 @@
-tr td a{
-  text-decoration: none;
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+nav a{
+	line-height: 7em;
 }
 a:before {
   content: " | ";
 }
-a[href="/HomePage"]:before {
+a[href="/"]:before {
   content: " ";
 }
 h1{
   text-align: center;
 }
-
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
+nav{
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
+#index, #about {
+  text-align: center;
+}
+#languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  display: inline;
+}
 
 
 
