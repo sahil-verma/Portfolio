@@ -38,8 +38,14 @@ nav{
 }
 #service{
   background-color: red;
-  border-collapse: collapse;
   padding-left: 10%;
+  width:100%;
+}
+#service td{
+  height:50px;
+}
+#service tr:nth-child(even){
+  background-color:blue;
 }
 
 
